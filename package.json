@@ -1,0 +1,23 @@
+{
+  "name": "budget-tracker-hw",
+  "version": "1.0.0",
+  "description": "Budget Tracking App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loneyb11/budget-tracker-HW.git"
+  },
+  "keywords": [
+    "Budget"
+  ],
+  "author": "Ben Loney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loneyb11/budget-tracker-HW/issues"
+  },
+  "homepage": "https://github.com/loneyb11/budget-tracker-HW#readme"
+}
