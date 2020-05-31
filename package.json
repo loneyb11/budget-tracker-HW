@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/loneyb11/budget-tracker-HW/issues"
   },
-  "homepage": "https://github.com/loneyb11/budget-tracker-HW#readme"
+  "homepage": "https://github.com/loneyb11/budget-tracker-HW#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
