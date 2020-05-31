@@ -2,12 +2,45 @@ body {
   font-size: 120%;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 200;
+  overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	white-space: normal;
+	min-height: 100vh;
 }
 
 button, input {
   font-size: 100%;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 300;
+  .btn {
+    border: 1px solid transparent;
+    padding: 0.4375rem 1.375rem;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    border-radius: 0.25rem;
+  }
+  
+  .btn:focus,
+  .btn.focus {
+    box-shadow: none;
+  }
+  
+  .btn.disabled,
+  .btn:disabled {
+    opacity: 0.54;
+  }
+  
+  .btn-primary {
+    background-color: #037de8;
+    border-color: #037de8;
+  }
+  
+  .btn-primary:hover {
+    background-color: #036ecc;
+    border-color: #036ecc;
+  }
 }
 
 table {
@@ -18,10 +51,14 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
 }
 
 .error {
@@ -37,11 +74,15 @@ tr:nth-child(even) {
 .total {
   font-size: 150%;
   text-decoration: underline;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
 }
 
 .form {
   margin-top: 25px;
   width: 100%;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
 }
 
 .transactions {
@@ -50,4 +91,6 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
 }
