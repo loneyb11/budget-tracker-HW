@@ -31,6 +31,6 @@ Compression,
 Heroku
 Javascript, HTML, CSS
 
-
+![](assets/budget.gif)
 
 ![](assets/my-budget-1.png)
