@@ -1,9 +1,10 @@
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'static-cache-v1';
 
 var urlsToCache = [
   '/',
   '/styles.css',
   '/index.js'
+  '/db.js'
 ];
 
 
