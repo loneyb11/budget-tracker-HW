@@ -3,7 +3,7 @@ var CACHE_NAME = 'static-cache-v1';
 var urlsToCache = [
   '/',
   '/styles.css',
-  '/index.js'
+  '/index.js',
   '/db.js'
 ];
 
