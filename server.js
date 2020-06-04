@@ -17,7 +17,10 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_hb6cpb0j:38qr48k2n8idp2b9gvdvns40ik@ds031223.mlab.com:31223/heroku_hb6cpb0j", {
+var MONGODB_URI = process.env.MONGODB_URI || process.env.REMOTE || "mongodb://localhost/budget";
+
+mongoose.connect(process.env.MONGODB_URI || 
+  {
   useUnifiedTopology: true,
   useNewUrlParser: true,
   useFindAndModify: false
