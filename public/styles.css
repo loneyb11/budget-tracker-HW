@@ -11,6 +11,11 @@ body {
 	min-height: 100vh;
 }
 
+.h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
 button {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 100;
