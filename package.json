@@ -23,7 +23,7 @@
     "core-util-is": "^1.0.2",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "heroku": "^7.42.0",
+    "heroku": "^7.49.1",
     "lite-server": "^2.6.1",
     "mongoose": "^5.9.17",
     "morgan": "^1.10.0",
