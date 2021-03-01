@@ -27,7 +27,7 @@
     "lite-server": "^2.6.1",
     "mongoose": "^5.9.17",
     "morgan": "^1.10.0",
-    "mquery": "^3.2.2",
+    "mquery": "^3.2.3",
     "node-notifier": "^8.0.1",
     "webpack-dev-server": "^3.11.0"
   },
