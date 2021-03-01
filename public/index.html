@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
   <link rel="manifest" href="/manifest.json">
 
@@ -21,21 +22,30 @@
       <h1>My Budget App</h1>
       
   
-  <div class="container">
+  <div class="container-fluid">
   
  
     <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+      <div class="row justify-content-center">
+      <div class="total total-border col-6">Your total is: $<span id="total">0</span></div>
+    </div>
     </div>
 
+  
     <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <div class="row justify-content-center">
+      <input class="col-3" type="text" id="t-name" placeholder="Name of transaction" />
+      <input class="col-3" type="number" min="0" id="t-amount" placeholder="Transaction amount" />
+      </div>
+    <div class="row justify-content-center">
+      <div class="buttons">
+      <button class="button-1 btn-lg" id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
+      <button class="button-2 btn-lg" id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
       <p class="error"></p>
+      </div>
     </div>
-
+    </div>
+  
     <div class="transactions">
       <table>
         <thead>
@@ -51,6 +61,7 @@
     <canvas id="myChart"></canvas>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="db.js"></script>
   <script src="index.js"></script>
