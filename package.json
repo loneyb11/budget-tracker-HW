@@ -36,7 +36,7 @@
     "-": "0.0.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
-    "webpack": "^4.43.0",
+    "webpack": "^5.75.0",
     "websocket-extensions": ">=0.1.4"
   }
 }
